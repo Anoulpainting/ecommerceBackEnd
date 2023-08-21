@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+textarea {
+  @apply outline-none border-2 border-gray-300 rounded-md px-1 w-full;
+}
+input:focus,
+textarea:focus {
+  @apply border-blue-900;
+}
+h1 {
+  @apply text-blue-900 text-xl;
+}
+
+h2 {
+  @apply text-blue-900 text-sm;
+}
+
+.btn-primary {
+  @apply bg-blue-900 text-white rounded-lg mt-2 px-2 m-1
+    py-1;
+}
+.btn-red {
+  @apply bg-red-600 text-white rounded-lg mt-2 px-2 m-1
+    py-1;
+}
+.btn-up {
+  @apply w-24 h-24 text-gray-500 bg-gray-100  border-0 flex flex-col items-center justify-center rounded-lg;
+}
+.btn-up:hover {
+  @apply w-24 h-24 text-white bg-blue-900  border-0 flex flex-col items-center justify-center rounded-lg transition-colors duration-300;
+}
+.btn-login {
+  @apply bg-blue-800 border-2 text-white rounded-lg px-4 p-2;
+}
+.btn-login:hover {
+  @apply bg-white text-black rounded-lg px-4 p-2 transition-opacity animate-pulse duration-75;
+}
+table.basic {
+  @apply outline-none w-full;
+}
+table.basic thead tr td {
+  @apply outline-none bg-blue-100;
+}
+table.basic tr td {
+  @apply outline-none border  border-blue-200 p-1 px-3;
+}
+
+table.basic a {
+  @apply bg-blue-900 text-white text-sm py-1 px-2 rounded-md inline-flex gap-1 mr-1;
+}
