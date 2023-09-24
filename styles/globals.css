@@ -27,7 +27,7 @@ h2 {
     py-1;
 }
 .btn-up {
-  @apply w-24 h-24 text-gray-500 bg-gray-100  border-0 flex flex-col items-center justify-center rounded-lg;
+  @apply w-24 h-24 text-gray-500 cursor-pointer bg-gray-100  border-0 flex flex-col items-center justify-center rounded-lg;
 }
 .btn-up:hover {
   @apply w-24 h-24 text-white bg-blue-900  border-0 flex flex-col items-center justify-center rounded-lg transition-colors duration-300;
